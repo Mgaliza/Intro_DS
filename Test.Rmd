@@ -5,6 +5,19 @@ date: "2024-09-10"
 output: html_document
 ---
 
+#ctrl+ alt + i
+```{r}
+#install.packages("car")
+#install.packages("carData")
+#install.packages("Rtools")
+library(car)
+
+data <- mtcars
+
+plot(mtcars$disp)
+```
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
